@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Zoey's Profile</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="border fixed split-nav background-success">
+    <div class="nav-brand">
+      <h3><a href="#"><img class="logo" src="my_logo200x200.png"></a></h3>
+    </div>
+    <div class="collapsible">
+      <input id="collapsible1" type="checkbox" name="collapsible1">
+      <button>
+        <label for="collapsible1">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </label>
+      </button>
+      <div class="collapsible-body">
+        <ul class="inline">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Homepage background image -->
+  <section class="home_bg" id="home">
+    <div class="overlay"></div>
+    <div class="container_table">
+      <div class="container_table_cell">
+        <h2 class="hello animated tada">hi, i am jung</h2>
+
+        <div class="social_icons">
+          <a href="https://github.com/umbrally"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/jung-liu-8a7b43115/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://medium.com/@realumbrally"><i class="fab fa-medium-m"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- -- About Me -- -->
+  <section class="about_me clearfix" id="about">
+    <div class="container">
+      <h2>about me</h2>
+
+      <div class="summary">
+        <div class="col-left">
+          <div class="avatar">
+            <img src="profile.jpg" alt="avatar">
+          </div>
+        </div>
+
+        <div class="col-right">
+          <div class="personal-info">
+            <h3>HELLO! I'm Jung Liu (Zoey Liu)</h3>
+            <p>I'm a beginner in web development. I love new and interesting things and enjoy
+              exploring this world. I believe "Being useful is the way to make you truly happy", and programming is one
+              of the ways to help people very directly.</p>
+          </div>
+          <div class="skill row">
+            <div class="col-md-6">
+              <h4 class="text-success">Skills</h4>
+              <ul>
+                <li>HTML, CSS and JavaScript</li>
+                <li>Node.js</li>
+                <li>NoSQL(MongoDB)
+                <li>SQL(MySQL)</li>
+                <li>Git</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h4 class="text-success">Languages</h4>
+              <ul>
+                <li>Mandarin</li>
+                <li>English</li>
+                <li>German</li>
+              </ul>
+            </div>
+          </div>
+          <div class=" button-group">
+            <div class="download_cv">
+              <a href="Resume _20191219.pdf" download>download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- -- Resume -- -->
+  <section class="resume">
+    <div class="container">
+      <h2>resume</h2>
+
+      <div class="col-horizontal clearfix">
+        <h3 class="resume-subtitle">education:</h3>
+
+        <div class="col-item">
+          <p class="experience-year">Sep. 2002 - Jun. 2006</p>
+          <div class="resume-detail">
+            <h4>National Taiwan University</h4>
+            <ul>
+              <li>
+                Bachelor, Forestry and Resource Conservation
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-item">
+          <p class="experience-year">Sep. 2006 - Aug. 2009</p>
+          <div class="resume-detail">
+            <h4>National Taiwan University</h4>
+            <ul>
+              <li>
+                Master, Institute of Molecular and Cellular Biology
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-horizontal clearfix">
+        <h3 class="resume-subtitle">experience:</h3>
+
+        <div class="col-item">
+          <p class="experience-year">Oct. 2009 - Mar. 2014</p>
+          <div class="resume-detail">
+            <h4>Taiwan Semiconductor Manufacturing Company (tsmc)</h4>
+            <ul>
+              <li>
+                Senior Process Engineer
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-item">
+          <p class="experience-year">Apr. 2016 - Apr. 2017</p>
+          <div class="resume-detail">
+            <h4>Industrial Technology Research Institute (ITRI)
+              Center for Planning & Marketing of Biomedical Technology and Device Research Laboratories</h4>
+            <ul>
+              <li>
+                Deputy Administrator
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-item">
+          <p class="experience-year">Jun. 2017 - Mar. 2018</p>
+          <div class="resume-detail">
+            <h4>Asia Pacific Microsystems, Inc.</h4>
+            <ul>
+              <li>
+                Technical Marketing Project Manager
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-item">
+          <p class="experience-year">Mar. 2018 - Mar. 2019</p>
+          <div class="resume-detail">
+            <h4>SurplusGLOBAL, Inc.</h4>
+            <ul>
+              <li>
+                Sales Manager
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- -- Latest Work -- -->
+  <section class="works" id="portfolio">
+    <div class="container">
+      <h2>latest works</h2>
+
+      <div class="work-items clearfix">
+        <div class="col-work">
+          <h5 class="mb-3">Online Drink Shop</h5>
+          <a href="https://damp-cliffs-89201.herokuapp.com/">website</a>
+          <a href="https://github.com/F-Kibatodos/final-project">
+            GitHub
+          </a>
+          <img src="snapshot_AC_drink_v1.PNG" alt="AC_drink" class="m-2">
+          <p>團隊專案。消費者可以線上訂購飲料並藉由第三方(藍新金流)信用卡付款，付款後可以評價商品；管理者可以上架並管理飲料商品，訂單及評價</p>
+          <ul>
+            <li>
+              Node.js
+            </li>
+            <li>
+              Express.js
+            </li>
+            <li>
+              jQuery
+            </li>
+            <li>
+              MySQL
+            </li>
+            <li>
+              Bootstrap
+            </li>
+            <li>
+              Third-party APIs
+            </li>
+            <li>
+              Heroku deployment
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-work">
+          <h5 class="mb-3">Simple Twitter</h5>
+          <a href="https://hidden-sands-69770.herokuapp.com/tweets">website</a>
+          <a href="https://github.com/andy922200/simple-twitter-express-starter">
+            GitHub
+          </a>
+          <img src="snapshot_simple_twitter_v1.PNG" alt="Simple-Twitter" class="m-2">
+          <p>團隊專案。使用者可以發表、編輯文章，也可以回覆他人的文章。</p>
+          <ul>
+            <li>
+              Node.js
+            </li>
+            <li>
+              Express.js
+            </li>
+            <li>
+              Heroku deployment
+            </li>
+            <li>
+              MySQL
+            </li>
+            <li>
+              Bootstrap
+            </li>
+            <li>
+              Third-party APIs
+            </li>
+          </ul>
+        </div>
+        <div class="col-work">
+          <h5 class="mb-3">Line Bot</h5>
+          <a href="https://github.com/umbrally/line-bot-bus-and-weather">
+            GitHub
+          </a>
+          <img src="snapshot_line_bot_v1.PNG" alt="Line-Bot" class="m-2">
+          <p>利用 line messaging API 及 PTX API 與中央氣象局網站爬蟲，建立一個簡單的 Line bot 可以回覆特定地區的天氣及公車到站資訊。
+          </p>
+          <ul>
+            <li>
+              Node.js
+            </li>
+            <li>
+              Heroku deployment
+            </li>
+            <li>
+              Line Messaging API
+            </li>
+            <li>
+              Public Transport Data eXchange(PTX) API
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-work">
+          <h5 class="mb-3">URL Shorten</h5>
+          <a href="https://pure-ocean-86993.herokuapp.com/">Website</a>
+          <a href="https://github.com/umbrally/url-shorten">
+            GitHub
+          </a>
+          <img src="snapshot_url_shorten.PNG" alt="URL shorten" class="m-2">
+          <p>縮網址網站，可以輸入原始網址後得到縮網址，可以按複製按鈕複製縮網址結果。</p>
+          <ul>
+            <li>
+              Node.js
+            </li>
+            <li>
+              Express.js
+            </li>
+            <li>
+              MongoDB
+            </li>
+            <li>
+              Bootstrap
+            </li>
+            <li>
+              Heroku deployment
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-work">
+          <h5 class="mb-3">Expense Tracker</h5>
+          <a href="https://pure-ocean-86993.herokuapp.com/">Website</a>
+          <a href="https://github.com/umbrally/url-shorten">
+            GitHub
+          </a>
+          <img src="snapshot_expense_tracker.PNG" alt="Expense tracker" class="m-2">
+          <p>簡易記帳本，可以新增、編輯、查看、刪除支出金額、日期、品項。查看時可以依照支出月份及品項篩選。</p>
+          <ul>
+            <li>
+              Node.js
+            </li>
+            <li>
+              Express.js
+            </li>
+            <li>
+              MySQL
+            </li>
+            <li>
+              Bootstrap
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- -- Contact -- -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>get in touch</h2>
+      <div>
+        <p class="text-center">Email: realumbrally@gmail.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- -- Footer -- -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2019 Jung Liu | All Rights Reserved.</p>
+        <div class="footer-social-icon">
+          <a href="https://github.com/umbrally"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/jung-liu-8a7b43115/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://medium.com/@realumbrally"><i class="fab fa-medium-m"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
