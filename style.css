@@ -64,75 +64,11 @@ section {
   padding: 100px 0;
 }  
 
-/* ====02. Header==== */
 
-/* header {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  right: 0;
-  background-color: #222;
-  z-index: 100;
-}
-
-.menu-button {
-    float: right;
-    font-size: 25px;
-    line-height: 40px;
-    color: #fff;
-    background: transparent;
-    padding: 0 15px 0 15px;
-    border: 0;
-  }
-
-  .menu-button-checkbox {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 52px;
-    height: 40px;
-    margin: 0;
-    opacity: 0;
-  }
-
-.menu-button-checkbox:checked ~ nav .nav {
-    display: block;
-  }
-
-  .nav {
-    display: none;
-    position: fixed;
-    top: 40px;
-    left: 0;
-    width: 100%;
-    background-color: #222;
-  }
-
-  .nav li {
-    display: block;
-    text-align: center;
-    padding: 7px 0;
-    border-bottom: 1px solid #333;
-  }
-
-  .nav li a {
-    padding: 20px 12px;
-    color: #fff;
-    text-transform: capitalize;
-  }
- */
-
-
-
-/* nav {
-  padding: 0 15px */
-/* } */
-
-
-/* ====03. Homepage Background Image==== */
+/* ====01. Homepage Background Image==== */
 
 .home_bg {
-  background-image: url(banner2.jpg) ;
+  background-image: url(./image/banner2.jpg) ;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -180,7 +116,7 @@ background-image: none
 }
 
 
-/* ===== 04. About Me ===== */
+/* ===== 02. About Me ===== */
 
 
  h2 {
@@ -260,44 +196,7 @@ background-image: none
   transition: all .4s linear;
 }
 
-/* ===== 05. What I Offer =====*/
-
-.my_service {
-  background-color: #f9f9f9;
-}
-
-.service-items {
-  display: flex;
-  flex-flow: row wrap;
-}
-
- .service-content {
-  width: 100%;
-  padding: 10px 15px;
-  
-}
-
- .service-content i {
-  font-size: 30px;
-  line-height: 46px;
-}
-
- .service-content h3 {
-  font-size: 16px;
-  letter-spacing: 1px;
-  margin-top: 13px;
-  margin-bottom: 8px;
-  text-transform: capitalize;
-}
-
- .service-content p {
-  color: #767676;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 24px;
-}
-
-/* ===== 06. Resume ====== */
+/* ===== 03. Resume ====== */
 .resume {
   background-color: #f7f7f7
 }
@@ -350,59 +249,9 @@ background-image: none
   text-transform: capitalize;
 }
 
- /* .resume-detail p {
-  line-height: 22px;
- } */
 
- /* ====== 07. Quote ====== */
 
- /* .quotes {
-  background-image: url(https://picsum.photos/1920/454);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  position: relative;
-  width: 100%;
-}
-
- .quote-inner {
-  color: #fff;
-  text-align: center;
-}
-
- .quote-inner h3 {
-  font-size: 28px;
-  text-transform: capitalize;
-}
-
- .quote-inner p {
-  font-size: 14px;
-  margin-top: 12px;
-}
-
- .quote-inner a {
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 11px;
-  padding: 12px 49px;
-  display: inline-block;
-  margin-top: 22px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
- .quote-inner a:hover {
-  background: #000;
-  color: #fff;
-  -webkit-transition: all .4s linear;
-  -moz-transition: all .4s linear;
-  -ms-transition: all .4s linear;
-  -o-transition: all .4s linear;
-  transition: all .4s linear;
-} */
-
-/* ===== 08. Latest Work ===== */
+/* ===== 04. Latest Work ===== */
 
 /* .works {
   background-color: #f7f7f7;
@@ -450,12 +299,12 @@ font-size: 25px
 .col-work ul {
   color: gray
 }
-/* ===== 09. Contact ===== */
+/* ===== 05. Contact ===== */
 
 .contact p{
 font-size: 20px
 }
-/* ===== 10. Footer ===== */
+/* ===== 06. Footer ===== */
 
 footer {
   padding: 80px 0;
