@@ -1,13 +1,14 @@
 html, body {
   width: 100%;
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   padding: 0px;
   margin: 0px;
-  font-size: 14px;
-  line-height: 1.42857143;
+  font-size: 15px;
+  line-height: 1.6;
   color: #333;
   background-color: #fff;
   font-family: 'Montserrat', sans-serif;
@@ -64,7 +65,9 @@ section {
   padding: 100px 0;
 }  
 
-
+p {
+  font-family: 'Montserrat', sans-serif;
+}
 /* ====01. Homepage Background Image==== */
 
 .home_bg {
@@ -143,6 +146,8 @@ background-image: none
   letter-spacing: 2px;
   margin-bottom: 6px;
   text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
  .personal-info p {
@@ -150,6 +155,7 @@ background-image: none
   color: #767676;
   line-height: 24px;
   text-align: justify;
+  font-family: 'Montserrat', sans-serif;
 }
 
  .skill {
@@ -213,11 +219,12 @@ background-image: none
 }
 
  h3.resume-subtitle {
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 15px;
   margin-top: 12px;
   text-transform: capitalize;
-  width: 100%
+  width: 100%;
+  font-family: 'Montserrat',sans-serif;
 }
 
  .col-horizontal .col-item {
@@ -236,17 +243,19 @@ background-image: none
 
  .resume-detail h4 {
   font-size: 18px;
-  color: rgb(16, 11, 121);
+  color: rgb(26, 75, 165);
   line-height: 20px;
   margin-bottom: 10px;
   /* text-decoration: underline; */
+  font-family: 'Montserrat',sans-serif;
 }
 
  .resume-detail ul {
-  font-size: 10px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 9px;
   text-transform: capitalize;
+  font-family: 'Montserrat',sans-serif;
 }
 
 
@@ -282,12 +291,12 @@ background-image: none
 
 .col-work h5 {
   color: rgb(65, 47, 30);
-font-size: 25px
+font-size: 28px
 }
 
  .col-work a {
   background-image: none;
-  color: blue;
+  color: rgb(26, 75, 165);
   font-size: 15px;
   margin-right: 5px;
 }
@@ -300,9 +309,16 @@ font-size: 25px
   color: gray
 }
 /* ===== 05. Contact ===== */
+.contact {
+  background-color: #f7f7f7
+}
 
 .contact p{
-font-size: 20px
+font-size: 20px;
+}
+
+.contact p a {
+background-image: none;
 }
 /* ===== 06. Footer ===== */
 
